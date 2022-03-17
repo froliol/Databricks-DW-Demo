@@ -1,17 +1,14 @@
 # Databricks notebook source
-url = "https://raw.githubusercontent.com/froliol/Databricks-DW-Demo/main/data/sales_reps.csv?token=GHSAT0AAAAAABSTU7MQYJ5THYZKTCLTIVNOYRTRMDQ"
-from pyspark import SparkFiles
-spark.sparkContext.addFile(url)
+# MAGIC %sh
+# MAGIC wget -P /tmp https://github.com/froliol/Databricks-DW-Demo/blob/main/data/products.csv.zip
 
 # COMMAND ----------
 
-# MAGIC %sh
-# MAGIC ls data
+# MAGIC %fs ls file:/tmp
 
 # COMMAND ----------
 
-# MAGIC %sh
-# MAGIC wget -P /tmp https://github.com/froliol/Databricks-DW-Demo/blob/main/data/sales_reps.csv.gz
+# MAGIC %fs cp file:/tmp/sales_reps.csv.gz /tmp/sales_reps.csv.gz
 
 # COMMAND ----------
 
