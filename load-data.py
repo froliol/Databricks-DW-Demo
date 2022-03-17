@@ -4,7 +4,12 @@
 
 # COMMAND ----------
 
-# MAGIC %fs cp file:/tmp/products.csv.bz2 /tmp/products.csv.bz2
+# MAGIC %sh
+# MAGIC bzip2 -dkf /tmp/products.csv.bz2
+
+# COMMAND ----------
+
+# MAGIC %fs cp file:/tmp/products.csv /tmp/products.csv
 
 # COMMAND ----------
 
@@ -13,3 +18,12 @@
 # COMMAND ----------
 
 # MAGIC %fs ls /tmp/
+
+# COMMAND ----------
+
+# df = spark.read.load("dbfs:/tmp/products.csv.bz2", format="csv")
+df = spark.read.option("sep", ",").csv("/tmp/products.csv")
+
+# COMMAND ----------
+
+df.show()
