@@ -1,0 +1,13 @@
+product_id,color,model_name,model_number,base_price,color_adj,size_adj,price,size
+7a41323a-560f-4e34-aba6-995e2325f95e,red,Movio Classic,HM1K-BT-S-R,95.32,1,0.9,85.788,small
+bc93ed89-bb15-4e46-a110-a5878e46ccf6,green,Movio Classic,HM1K-BT-S-G,95.32,1,0.9,85.788,small
+ec15ba1d-53b6-44b0-8a22-1e498485f1b8,blue,Movio Classic,HM1K-BT-S-B,95.32,1,0.9,85.788,small
+a8fbcfea-4352-4c5a-af8b-c8623258b4f8,white,Movio Classic,HM1K-BT-S-W,95.32,1.1,0.9,94.3668,small
+95cbadca-cf90-4b8a-a134-2976f6ba6df8,red,Movio Classic,HM1K-BT-M-R,95.32,1,0.95,90.55399999999999,medium
+e26839a2-44fd-4003-a06b-faf6a2dff077,green,Movio Classic,HM1K-BT-M-G,95.32,1,0.95,90.55399999999999,medium
+699fcfe8-ce60-42c9-9d0f-728df3e48d70,blue,Movio Classic,HM1K-BT-M-B,95.32,1,0.95,90.55399999999999,medium
+e672483e-57a8-434a-bc42-ecf827c8a8d4,white,Movio Classic,HM1K-BT-M-W,95.32,1.1,0.95,99.6094,medium
+8d809e13-fdc5-4d15-9271-953750f6d592,red,Movio Classic,HM1K-BT-L-R,95.32,1,1,95.32,large
+668b2c1f-d76e-4bf0-82bb-c7d5776524a4,green,Movio Classic,HM1K-BT-L-G,95.32,1,1,95.32,large
+7b547a10-e804-48e1-ad90-1f946cee659c,blue,Movio Classic,HM1K-BT-L-B,95.32,1,1,95.32,large
+a990d79b-4957-42fc-8e42-20ceb1fd1259,white,Movio Classic,HM1K-BT-L-W,95.32,1.1,1,104.852,large
